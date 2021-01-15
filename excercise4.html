@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        .wrapper {
+            margin:auto;
+            width: 100%;
+        }
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        a:link {
+        color:rgb(255, 255, 255)
+    }
+    a:visited{
+        color: rgb(253, 253, 255);
+    }
+    a:hover {
+        color:rgb(255, 1, 1)
+    }
+        .menuheader{
+            display: flex;
+            flex-flow:row wrap;
+            text-align: center;
+            margin: 0;
+            background-color: #dc143c;
+            height: 90px;
+            vertical-align: middle;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .topmenu >li {
+            list-style: none;
+            padding: 1em;
+            color: white;
+        }
+        
+       
+        .flexgrowcon {
+            display: flex;
+            align-items: stretch;
+        }
+        leftbar,rightbar{
+            background-color: rgb(248, 248, 240);
+            min-height: 500px;
+        }
+        footer {
+            background-color: black;
+            color:white;
+            height: 60px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 60px;
+            font-family:'Times New Roman', Times, serif
+        }
+        .box {
+         float:left;
+        margin: 25px;
+        width: 400px;
+        min-height: 300px;
+        border-radius: 5px;
+        background-color: rgb(189, 212, 201);
+        padding: 1em;
+} 
+    </style>
+</head>
+
+<body style="background-color: whitesmoke;">
+    <div class="topnav" style="background-color: rgb(168, 168, 168);">
+        <button><a href="index.html">Home</a> </button> 
+        <button><a href="aboutus.html">About us</a> </button>
+        <button> <a href="projects.html">Projects</a>  </button> 
+       </div>
+   <div class="wrapper">
+ <header>
+<div class="menuheader">
+<h1 style="color: white;">This is title</h1>
+</div>
+    
+
+</header>
+<div class="flexgrowcon">
+    <leftbar style="flex-grow: 1;">
+    <ul style="background-color: #dc143c; ">
+        <li>  <a href="brokenlink" target="blank">Broken link</a>  </li>
+        <li>  <a href="aboutus.html">About us</a>  </li>
+        <li>  <a href="brokenlink" target="blank">broken link</a>  </li>
+        <li>  <a href="brokenlink" target="blank">broken link</a>  </li>
+    </ul>
+    </leftbar>
+    <content style="flex-grow: 6; background-color: rgb(233, 228, 217);">
+        <div class="box"> 
+            <figure>
+           <img src="img/PIXNIO-2267857-1200x900.jpg" alt="mallard from pixnio by bicanski" width="400" height="300">
+           <figcaption style="background-color: transparent;">Photo by Bicanski on Pixnio</figcaption>
+        </figure>
+        </div>
+    <article>
+        <h3 style="background-color: transparent;">This is a site with a duck</h3>
+        <p style="background-color: transparent;">its actually a mallard but whatever<br> what up what up</p>
+    </article>
+    </content>
+  
+</div>
+
+<footer>Get NordVpn for 60% off</footer>
+
+   </div>
+</body>
+</html>

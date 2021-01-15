@@ -9,7 +9,7 @@ body {
       color: rgb(127, 255, 0);
    }
     a:link {
-        color:aqua
+        color:rgb(28, 17, 192)
     }
     a:visited{
         color: rgb(55, 0, 255);
@@ -50,4 +50,10 @@ body {
     .noteboxgood{
         border: 5px solid rgb(0, 248, 12);
         font-weight: lighter;
+    }
+    .flexcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: bisque;
+        align-content: space-between;
     }
