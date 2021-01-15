@@ -1,0 +1,53 @@
+body {
+    background-color:rgb(235, 224, 224);
+  }
+  h1 {
+    color: blue;
+  }
+  code {
+      background-color: rgb(83, 72, 72);
+      color: rgb(127, 255, 0);
+   }
+    a:link {
+        color:aqua
+    }
+    a:visited{
+        color: rgb(55, 0, 255);
+    }
+    a:hover {
+        color:rgb(255, 1, 1)
+    }
+      a:active {
+        color: seagreen;
+    }
+    figure {
+        border: 1px #cccccc solid;
+        padding: 4px;
+        margin:auto
+    }
+    figcaption {
+        background-color: silver;
+        font-style: italic;
+        padding: 2px;
+        text-align: match-parent;
+    }
+    article > h3 {
+        background-color: silver;
+    }
+    article > p {
+        background-color: thistle;
+    }
+
+    .notebox{
+        border: 5px solid rgb(255, 145, 0);
+        font-weight: lighter;
+    }
+
+    .noteboxwarning{
+        border: 5px solid rgb(248, 0, 0);
+        font-weight: lighter;
+    }
+    .noteboxgood{
+        border: 5px solid rgb(0, 248, 12);
+        font-weight: lighter;
+    }
