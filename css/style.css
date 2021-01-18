@@ -1,8 +1,12 @@
+head {
+link rel="icon" type="image/png" sizes="16x16" href="img\favicon-16x16.png"
+}
 body {
     background-color:rgb(235, 224, 224);
   }
   h1 {
     color: blue;
+    border-bottom: 5px solid red;
   }
   code {
       background-color: rgb(83, 72, 72);
